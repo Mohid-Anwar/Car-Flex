@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87557705124",
+    "project_id": "carflex-35a06",
+    "storage_bucket": "carflex-35a06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87557705124:android:8a9a97f2e5ed889b504531",
+        "android_client_info": {
+          "package_name": "com.carflex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi0IF7pbsHRjnpgP0zD6tLTUGEXNZa1p0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

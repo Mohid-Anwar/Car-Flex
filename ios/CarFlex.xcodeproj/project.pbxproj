@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CarFlexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CarFlexTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-CarFlex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CarFlex.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-CarFlex-CarFlexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CarFlex-CarFlexTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		19AA140E39904CECA843DFBB /* BrunoAce-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E06FA62DCE94E66BF290FE6 /* BrunoAce-Regular.ttf */; };
+		BF37AD2C0BF1495DB84E962E /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C7163FA5A4D349317318D /* Barlow-Black.ttf */; };
+		C3DAA5262B6046C484250D7D /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2B1A7326B3949248D353B8F /* Barlow-BlackItalic.ttf */; };
+		76014733214D45978C11FDBD /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 757C6748CB114B66889C8BA9 /* Barlow-Bold.ttf */; };
+		D6732DA699684140B9D5A5C8 /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE25B0978FCC4BFDADA6B62E /* Barlow-BoldItalic.ttf */; };
+		1F600941E47F437DABD71932 /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 382EBCE6B20440C99E38E0EB /* Barlow-ExtraBold.ttf */; };
+		09D24C56BEE9448D9DF5003C /* Barlow-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78ACF6992F3745C59DA196A6 /* Barlow-ExtraBoldItalic.ttf */; };
+		25CFAF9F288B4284B71EE63D /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71FF2798EC234CDF8EAA981F /* Barlow-ExtraLight.ttf */; };
+		C1C6517A52D942889B8B4319 /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189FC81EE1D84B3399DD515F /* Barlow-ExtraLightItalic.ttf */; };
+		EB06444EDDCB40F1823ADCB9 /* Barlow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCAE02014819418E8F79C8DE /* Barlow-Italic.ttf */; };
+		68B25F87DB6F498BAA905D0F /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF8B4B14F82C46AAAE531631 /* Barlow-Light.ttf */; };
+		00E723DA525E4FF7AB8ACA1D /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A157EF4894F4FECA634B612 /* Barlow-LightItalic.ttf */; };
+		5BBC5B7DA7BB4E099A0C21FE /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35B618F662174EE6A1A3F6BC /* Barlow-Medium.ttf */; };
+		6B73A98329F7484E8E2A501F /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD0EB14DD5F41C1AB28B369 /* Barlow-MediumItalic.ttf */; };
+		E3A35FA440144366BB637C13 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEF2897E918F43C9B4E61454 /* Barlow-Regular.ttf */; };
+		1C99CBEE4DE94367B6254D70 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93B828BF0D614660874C8959 /* Barlow-SemiBold.ttf */; };
+		3B9085BE97A342738F54B6F8 /* Barlow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA10832F917F4CEA95BB4FC7 /* Barlow-SemiBoldItalic.ttf */; };
+		E92582061FB64C9AAD0068F4 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1AFC1BDE45B499EB31C2022 /* Barlow-Thin.ttf */; };
+		39780EA2805446598ED8AA8C /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFEA570EFE847B7AB5ACF80 /* Barlow-ThinItalic.ttf */; };
+		8F0B8C1A929B4CD8B0AA709D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3456CAE5ED046B5B397A733 /* OFL.txt */; };
+		52A3EA1A07EC4AF8ABF9D3CE /* Urbanist-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67055BA9C16A419790567C2F /* Urbanist-Black.ttf */; };
+		C8BBF128AE4642DAB6EC1FF6 /* Urbanist-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E92F2AB204145DD84FC5900 /* Urbanist-BlackItalic.ttf */; };
+		D7DC4CCBC44E4AC7BB8EF714 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15293F98C9464803BABC3F65 /* Urbanist-Bold.ttf */; };
+		96267F76385B4CF1B0058A13 /* Urbanist-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 828BFA5EEA7E4D6FB86428B4 /* Urbanist-BoldItalic.ttf */; };
+		EE672AB27C894ED889BCCC5F /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A34F15FDBB4B0580FD8437 /* Urbanist-ExtraBold.ttf */; };
+		3862FD1C9C3A4A9C83F2CEDE /* Urbanist-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE3929930FF64E49923B28E4 /* Urbanist-ExtraBoldItalic.ttf */; };
+		D44217B28FE14701991264C3 /* Urbanist-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F61773CFA46E4D029290712E /* Urbanist-ExtraLight.ttf */; };
+		3CB1E59BF4EB4C9D87245569 /* Urbanist-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0148245D48949B981B2D57B /* Urbanist-ExtraLightItalic.ttf */; };
+		31608BB378C64A2B869E061A /* Urbanist-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D8B3B74281D4F4087D405C1 /* Urbanist-Italic.ttf */; };
+		904F6AE205EE4EDAB4085043 /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B9CC794EEE34120BCC6C060 /* Urbanist-Light.ttf */; };
+		34C1E53FAF6A4EEFB608BF51 /* Urbanist-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F9F89CC498484C9A59956B /* Urbanist-LightItalic.ttf */; };
+		C51CAC90611A4EA5AE29B976 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE9492FD6B004256B16C747A /* Urbanist-Medium.ttf */; };
+		AFB1CA13542F4E7C8415AD32 /* Urbanist-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9277560036A241639AA4F3A6 /* Urbanist-MediumItalic.ttf */; };
+		B05F55393B9F44F9B4ED0464 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4A0D2DD032F410EBB6313BB /* Urbanist-Regular.ttf */; };
+		0260215B03C04EAD9A45EDFA /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C0B311B2A54DEEB5AF17F3 /* Urbanist-SemiBold.ttf */; };
+		73D4A62DA707446C9B2F8768 /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32817AB07B9149B687D8794C /* Urbanist-SemiBoldItalic.ttf */; };
+		BBFF61A45D614429A9C54F1D /* Urbanist-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0774528B397496D91EF34AE /* Urbanist-Thin.ttf */; };
+		6E28B914E3AA408DB4F600D1 /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DC1755CB2AD4F3293322C43 /* Urbanist-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = CarFlex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* CarFlexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarFlexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CarFlexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarFlexTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CarFlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarFlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CarFlex/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CarFlex/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CarFlex/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CarFlex/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CarFlex/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CarFlex-CarFlexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarFlex-CarFlexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-CarFlex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarFlex.debug.xcconfig"; path = "Target Support Files/Pods-CarFlex/Pods-CarFlex.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-CarFlex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarFlex.release.xcconfig"; path = "Target Support Files/Pods-CarFlex/Pods-CarFlex.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-CarFlex-CarFlexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarFlex-CarFlexTests.debug.xcconfig"; path = "Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-CarFlex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarFlex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CarFlex/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-CarFlex-CarFlexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarFlex-CarFlexTests.release.xcconfig"; path = "Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0E06FA62DCE94E66BF290FE6 /* BrunoAce-Regular.ttf */ = {isa = PBXFileReference; name = "BrunoAce-Regular.ttf"; path = "../assets/fonts/BrunoAce-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F4C7163FA5A4D349317318D /* Barlow-Black.ttf */ = {isa = PBXFileReference; name = "Barlow-Black.ttf"; path = "../assets/fonts/Barlow-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2B1A7326B3949248D353B8F /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-BlackItalic.ttf"; path = "../assets/fonts/Barlow-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		757C6748CB114B66889C8BA9 /* Barlow-Bold.ttf */ = {isa = PBXFileReference; name = "Barlow-Bold.ttf"; path = "../assets/fonts/Barlow-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE25B0978FCC4BFDADA6B62E /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-BoldItalic.ttf"; path = "../assets/fonts/Barlow-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		382EBCE6B20440C99E38E0EB /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraBold.ttf"; path = "../assets/fonts/Barlow-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78ACF6992F3745C59DA196A6 /* Barlow-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraBoldItalic.ttf"; path = "../assets/fonts/Barlow-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71FF2798EC234CDF8EAA981F /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraLight.ttf"; path = "../assets/fonts/Barlow-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		189FC81EE1D84B3399DD515F /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraLightItalic.ttf"; path = "../assets/fonts/Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCAE02014819418E8F79C8DE /* Barlow-Italic.ttf */ = {isa = PBXFileReference; name = "Barlow-Italic.ttf"; path = "../assets/fonts/Barlow-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF8B4B14F82C46AAAE531631 /* Barlow-Light.ttf */ = {isa = PBXFileReference; name = "Barlow-Light.ttf"; path = "../assets/fonts/Barlow-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A157EF4894F4FECA634B612 /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-LightItalic.ttf"; path = "../assets/fonts/Barlow-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35B618F662174EE6A1A3F6BC /* Barlow-Medium.ttf */ = {isa = PBXFileReference; name = "Barlow-Medium.ttf"; path = "../assets/fonts/Barlow-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACD0EB14DD5F41C1AB28B369 /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-MediumItalic.ttf"; path = "../assets/fonts/Barlow-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEF2897E918F43C9B4E61454 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; name = "Barlow-Regular.ttf"; path = "../assets/fonts/Barlow-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93B828BF0D614660874C8959 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; name = "Barlow-SemiBold.ttf"; path = "../assets/fonts/Barlow-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA10832F917F4CEA95BB4FC7 /* Barlow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-SemiBoldItalic.ttf"; path = "../assets/fonts/Barlow-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1AFC1BDE45B499EB31C2022 /* Barlow-Thin.ttf */ = {isa = PBXFileReference; name = "Barlow-Thin.ttf"; path = "../assets/fonts/Barlow-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CFEA570EFE847B7AB5ACF80 /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ThinItalic.ttf"; path = "../assets/fonts/Barlow-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3456CAE5ED046B5B397A733 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67055BA9C16A419790567C2F /* Urbanist-Black.ttf */ = {isa = PBXFileReference; name = "Urbanist-Black.ttf"; path = "../assets/fonts/Urbanist-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E92F2AB204145DD84FC5900 /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-BlackItalic.ttf"; path = "../assets/fonts/Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15293F98C9464803BABC3F65 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; name = "Urbanist-Bold.ttf"; path = "../assets/fonts/Urbanist-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		828BFA5EEA7E4D6FB86428B4 /* Urbanist-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-BoldItalic.ttf"; path = "../assets/fonts/Urbanist-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0A34F15FDBB4B0580FD8437 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Urbanist-ExtraBold.ttf"; path = "../assets/fonts/Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE3929930FF64E49923B28E4 /* Urbanist-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-ExtraBoldItalic.ttf"; path = "../assets/fonts/Urbanist-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F61773CFA46E4D029290712E /* Urbanist-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Urbanist-ExtraLight.ttf"; path = "../assets/fonts/Urbanist-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0148245D48949B981B2D57B /* Urbanist-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-ExtraLightItalic.ttf"; path = "../assets/fonts/Urbanist-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D8B3B74281D4F4087D405C1 /* Urbanist-Italic.ttf */ = {isa = PBXFileReference; name = "Urbanist-Italic.ttf"; path = "../assets/fonts/Urbanist-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B9CC794EEE34120BCC6C060 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; name = "Urbanist-Light.ttf"; path = "../assets/fonts/Urbanist-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04F9F89CC498484C9A59956B /* Urbanist-LightItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-LightItalic.ttf"; path = "../assets/fonts/Urbanist-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE9492FD6B004256B16C747A /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; name = "Urbanist-Medium.ttf"; path = "../assets/fonts/Urbanist-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9277560036A241639AA4F3A6 /* Urbanist-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-MediumItalic.ttf"; path = "../assets/fonts/Urbanist-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C4A0D2DD032F410EBB6313BB /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; name = "Urbanist-Regular.ttf"; path = "../assets/fonts/Urbanist-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80C0B311B2A54DEEB5AF17F3 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; name = "Urbanist-SemiBold.ttf"; path = "../assets/fonts/Urbanist-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32817AB07B9149B687D8794C /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-SemiBoldItalic.ttf"; path = "../assets/fonts/Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D0774528B397496D91EF34AE /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; name = "Urbanist-Thin.ttf"; path = "../assets/fonts/Urbanist-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7DC1755CB2AD4F3293322C43 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Urbanist-ThinItalic.ttf"; path = "../assets/fonts/Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-CarFlex-CarFlexTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-CarFlex.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CarFlexTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CarFlexTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CarFlexTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CarFlex */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = CarFlex;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-CarFlex.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-CarFlex-CarFlexTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* CarFlex */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CarFlexTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				968833AB30BB43479882D881 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* CarFlex.app */,
+				00E356EE1AD99517003FC87E /* CarFlexTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-CarFlex.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-CarFlex.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-CarFlex-CarFlexTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-CarFlex-CarFlexTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		968833AB30BB43479882D881 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0E06FA62DCE94E66BF290FE6 /* BrunoAce-Regular.ttf */,
+				5F4C7163FA5A4D349317318D /* Barlow-Black.ttf */,
+				C2B1A7326B3949248D353B8F /* Barlow-BlackItalic.ttf */,
+				757C6748CB114B66889C8BA9 /* Barlow-Bold.ttf */,
+				BE25B0978FCC4BFDADA6B62E /* Barlow-BoldItalic.ttf */,
+				382EBCE6B20440C99E38E0EB /* Barlow-ExtraBold.ttf */,
+				78ACF6992F3745C59DA196A6 /* Barlow-ExtraBoldItalic.ttf */,
+				71FF2798EC234CDF8EAA981F /* Barlow-ExtraLight.ttf */,
+				189FC81EE1D84B3399DD515F /* Barlow-ExtraLightItalic.ttf */,
+				BCAE02014819418E8F79C8DE /* Barlow-Italic.ttf */,
+				BF8B4B14F82C46AAAE531631 /* Barlow-Light.ttf */,
+				3A157EF4894F4FECA634B612 /* Barlow-LightItalic.ttf */,
+				35B618F662174EE6A1A3F6BC /* Barlow-Medium.ttf */,
+				ACD0EB14DD5F41C1AB28B369 /* Barlow-MediumItalic.ttf */,
+				BEF2897E918F43C9B4E61454 /* Barlow-Regular.ttf */,
+				93B828BF0D614660874C8959 /* Barlow-SemiBold.ttf */,
+				FA10832F917F4CEA95BB4FC7 /* Barlow-SemiBoldItalic.ttf */,
+				B1AFC1BDE45B499EB31C2022 /* Barlow-Thin.ttf */,
+				2CFEA570EFE847B7AB5ACF80 /* Barlow-ThinItalic.ttf */,
+				C3456CAE5ED046B5B397A733 /* OFL.txt */,
+				67055BA9C16A419790567C2F /* Urbanist-Black.ttf */,
+				9E92F2AB204145DD84FC5900 /* Urbanist-BlackItalic.ttf */,
+				15293F98C9464803BABC3F65 /* Urbanist-Bold.ttf */,
+				828BFA5EEA7E4D6FB86428B4 /* Urbanist-BoldItalic.ttf */,
+				E0A34F15FDBB4B0580FD8437 /* Urbanist-ExtraBold.ttf */,
+				EE3929930FF64E49923B28E4 /* Urbanist-ExtraBoldItalic.ttf */,
+				F61773CFA46E4D029290712E /* Urbanist-ExtraLight.ttf */,
+				F0148245D48949B981B2D57B /* Urbanist-ExtraLightItalic.ttf */,
+				7D8B3B74281D4F4087D405C1 /* Urbanist-Italic.ttf */,
+				2B9CC794EEE34120BCC6C060 /* Urbanist-Light.ttf */,
+				04F9F89CC498484C9A59956B /* Urbanist-LightItalic.ttf */,
+				EE9492FD6B004256B16C747A /* Urbanist-Medium.ttf */,
+				9277560036A241639AA4F3A6 /* Urbanist-MediumItalic.ttf */,
+				C4A0D2DD032F410EBB6313BB /* Urbanist-Regular.ttf */,
+				80C0B311B2A54DEEB5AF17F3 /* Urbanist-SemiBold.ttf */,
+				32817AB07B9149B687D8794C /* Urbanist-SemiBoldItalic.ttf */,
+				D0774528B397496D91EF34AE /* Urbanist-Thin.ttf */,
+				7DC1755CB2AD4F3293322C43 /* Urbanist-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CarFlexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarFlexTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CarFlexTests;
+			productName = CarFlexTests;
+			productReference = 00E356EE1AD99517003FC87E /* CarFlexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* CarFlex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CarFlex" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarFlex;
+			productName = CarFlex;
+			productReference = 13B07F961A680F5B00A75B9A /* CarFlex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CarFlex" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* CarFlex */,
+				00E356ED1AD99517003FC87E /* CarFlexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				19AA140E39904CECA843DFBB /* BrunoAce-Regular.ttf in Resources */,
+				BF37AD2C0BF1495DB84E962E /* Barlow-Black.ttf in Resources */,
+				C3DAA5262B6046C484250D7D /* Barlow-BlackItalic.ttf in Resources */,
+				76014733214D45978C11FDBD /* Barlow-Bold.ttf in Resources */,
+				D6732DA699684140B9D5A5C8 /* Barlow-BoldItalic.ttf in Resources */,
+				1F600941E47F437DABD71932 /* Barlow-ExtraBold.ttf in Resources */,
+				09D24C56BEE9448D9DF5003C /* Barlow-ExtraBoldItalic.ttf in Resources */,
+				25CFAF9F288B4284B71EE63D /* Barlow-ExtraLight.ttf in Resources */,
+				C1C6517A52D942889B8B4319 /* Barlow-ExtraLightItalic.ttf in Resources */,
+				EB06444EDDCB40F1823ADCB9 /* Barlow-Italic.ttf in Resources */,
+				68B25F87DB6F498BAA905D0F /* Barlow-Light.ttf in Resources */,
+				00E723DA525E4FF7AB8ACA1D /* Barlow-LightItalic.ttf in Resources */,
+				5BBC5B7DA7BB4E099A0C21FE /* Barlow-Medium.ttf in Resources */,
+				6B73A98329F7484E8E2A501F /* Barlow-MediumItalic.ttf in Resources */,
+				E3A35FA440144366BB637C13 /* Barlow-Regular.ttf in Resources */,
+				1C99CBEE4DE94367B6254D70 /* Barlow-SemiBold.ttf in Resources */,
+				3B9085BE97A342738F54B6F8 /* Barlow-SemiBoldItalic.ttf in Resources */,
+				E92582061FB64C9AAD0068F4 /* Barlow-Thin.ttf in Resources */,
+				39780EA2805446598ED8AA8C /* Barlow-ThinItalic.ttf in Resources */,
+				8F0B8C1A929B4CD8B0AA709D /* OFL.txt in Resources */,
+				52A3EA1A07EC4AF8ABF9D3CE /* Urbanist-Black.ttf in Resources */,
+				C8BBF128AE4642DAB6EC1FF6 /* Urbanist-BlackItalic.ttf in Resources */,
+				D7DC4CCBC44E4AC7BB8EF714 /* Urbanist-Bold.ttf in Resources */,
+				96267F76385B4CF1B0058A13 /* Urbanist-BoldItalic.ttf in Resources */,
+				EE672AB27C894ED889BCCC5F /* Urbanist-ExtraBold.ttf in Resources */,
+				3862FD1C9C3A4A9C83F2CEDE /* Urbanist-ExtraBoldItalic.ttf in Resources */,
+				D44217B28FE14701991264C3 /* Urbanist-ExtraLight.ttf in Resources */,
+				3CB1E59BF4EB4C9D87245569 /* Urbanist-ExtraLightItalic.ttf in Resources */,
+				31608BB378C64A2B869E061A /* Urbanist-Italic.ttf in Resources */,
+				904F6AE205EE4EDAB4085043 /* Urbanist-Light.ttf in Resources */,
+				34C1E53FAF6A4EEFB608BF51 /* Urbanist-LightItalic.ttf in Resources */,
+				C51CAC90611A4EA5AE29B976 /* Urbanist-Medium.ttf in Resources */,
+				AFB1CA13542F4E7C8415AD32 /* Urbanist-MediumItalic.ttf in Resources */,
+				B05F55393B9F44F9B4ED0464 /* Urbanist-Regular.ttf in Resources */,
+				0260215B03C04EAD9A45EDFA /* Urbanist-SemiBold.ttf in Resources */,
+				73D4A62DA707446C9B2F8768 /* Urbanist-SemiBoldItalic.ttf in Resources */,
+				BBFF61A45D614429A9C54F1D /* Urbanist-Thin.ttf in Resources */,
+				6E28B914E3AA408DB4F600D1 /* Urbanist-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex/Pods-CarFlex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex/Pods-CarFlex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarFlex/Pods-CarFlex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarFlex-CarFlexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarFlex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex/Pods-CarFlex-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex/Pods-CarFlex-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarFlex/Pods-CarFlex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarFlex-CarFlexTests/Pods-CarFlex-CarFlexTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CarFlexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* CarFlex */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-CarFlex-CarFlexTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarFlexTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarFlex.app/CarFlex";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-CarFlex-CarFlexTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CarFlexTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarFlex.app/CarFlex";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-CarFlex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CarFlex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CarFlex;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-CarFlex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CarFlex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CarFlex;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarFlexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CarFlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CarFlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

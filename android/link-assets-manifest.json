@@ -1,0 +1,157 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Barlow-Black.ttf",
+      "sha1": "c13c608d505b88f39559e406d35753fb8e68635e"
+    },
+    {
+      "path": "assets/fonts/Barlow-BlackItalic.ttf",
+      "sha1": "0b5f99d6a4cf22f5366510b7431307d0c40e9df5"
+    },
+    {
+      "path": "assets/fonts/Barlow-Bold.ttf",
+      "sha1": "96c3afeacb8f95ec015157419aed8b31ccf5ed46"
+    },
+    {
+      "path": "assets/fonts/Barlow-BoldItalic.ttf",
+      "sha1": "944c2c26eba65cbe5069d205345fe3654c19e309"
+    },
+    {
+      "path": "assets/fonts/Barlow-ExtraBold.ttf",
+      "sha1": "31add10ca97f37f03b322d90effbf71847bd2f0d"
+    },
+    {
+      "path": "assets/fonts/Barlow-ExtraBoldItalic.ttf",
+      "sha1": "6574662c76835ebea0ba9a6051d86ba564319ed6"
+    },
+    {
+      "path": "assets/fonts/Barlow-ExtraLight.ttf",
+      "sha1": "1231adcbc3552bd89d78410650961cc234878869"
+    },
+    {
+      "path": "assets/fonts/Barlow-ExtraLightItalic.ttf",
+      "sha1": "d90116fe8d43869b65a2d035f78cc0222515c942"
+    },
+    {
+      "path": "assets/fonts/Barlow-Italic.ttf",
+      "sha1": "f2ede99aaa8c9244a6de2ae563344220c7785e9f"
+    },
+    {
+      "path": "assets/fonts/Barlow-Light.ttf",
+      "sha1": "3b2340ed98714d79c2ddd7fee8120cd4198b971a"
+    },
+    {
+      "path": "assets/fonts/Barlow-LightItalic.ttf",
+      "sha1": "32e0a16c46f72a8fea085e1a01c8485a34ad214e"
+    },
+    {
+      "path": "assets/fonts/Barlow-Medium.ttf",
+      "sha1": "4591d390c34f173e79f71bf9eb682276b6d8bf28"
+    },
+    {
+      "path": "assets/fonts/Barlow-MediumItalic.ttf",
+      "sha1": "1a5b28a5dd5301b1ea117d007a039ce5ff35722c"
+    },
+    {
+      "path": "assets/fonts/Barlow-Regular.ttf",
+      "sha1": "7426e387aea19b486a47f15869a3a8328fac0058"
+    },
+    {
+      "path": "assets/fonts/Barlow-SemiBold.ttf",
+      "sha1": "3ce5f54b109563e173c1eb1dccd3c6962c912b6a"
+    },
+    {
+      "path": "assets/fonts/Barlow-SemiBoldItalic.ttf",
+      "sha1": "e09cbc7272b932c7ca364d451e8bcfda4569080c"
+    },
+    {
+      "path": "assets/fonts/Barlow-Thin.ttf",
+      "sha1": "75677acfde0227f8b8a1a39713b3116744d5bdec"
+    },
+    {
+      "path": "assets/fonts/Barlow-ThinItalic.ttf",
+      "sha1": "c553ce70ed806a26ad348113fee3bde278c686b1"
+    },
+    {
+      "path": "assets/fonts/BrunoAce-Regular.ttf",
+      "sha1": "a68204950c45ba82210478cd86d219f788e46fb5"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha1": "92050ce5096f0a97a4140e5be847f25901d1f327"
+    },
+    {
+      "path": "assets/fonts/Urbanist-Black.ttf",
+      "sha1": "516d2b16481f274b7b5d4a61eb317e6e77892671"
+    },
+    {
+      "path": "assets/fonts/Urbanist-BlackItalic.ttf",
+      "sha1": "b2797842b6db0599e9520e48d709ddc3780606d7"
+    },
+    {
+      "path": "assets/fonts/Urbanist-Bold.ttf",
+      "sha1": "5393e451665e344701f6f250898895ca98dabdbc"
+    },
+    {
+      "path": "assets/fonts/Urbanist-BoldItalic.ttf",
+      "sha1": "f4a1e267a96bca0d7ef946e232f61611c0405327"
+    },
+    {
+      "path": "assets/fonts/Urbanist-ExtraBold.ttf",
+      "sha1": "8456433f5c419161b01f72c0db6d431132b5f74a"
+    },
+    {
+      "path": "assets/fonts/Urbanist-ExtraBoldItalic.ttf",
+      "sha1": "3fec61d75c1b844ccd01c6a378786a67dce575a5"
+    },
+    {
+      "path": "assets/fonts/Urbanist-ExtraLight.ttf",
+      "sha1": "2f64ebe6c0466770c52d2c59a558c7a5df040061"
+    },
+    {
+      "path": "assets/fonts/Urbanist-ExtraLightItalic.ttf",
+      "sha1": "4e7dfd8a9e56674fcd26701faa41a6ec3f597f4d"
+    },
+    {
+      "path": "assets/fonts/Urbanist-Italic.ttf",
+      "sha1": "24930b7124266e299f4232d2124b3f74fc23dc0f"
+    },
+    {
+      "path": "assets/fonts/Urbanist-Light.ttf",
+      "sha1": "9477d6f6236a773d649a5e58a2ab612411f8e1ee"
+    },
+    {
+      "path": "assets/fonts/Urbanist-LightItalic.ttf",
+      "sha1": "a6574263208df3f694fcebce8b52991a3e50b78d"
+    },
+    {
+      "path": "assets/fonts/Urbanist-Medium.ttf",
+      "sha1": "8fdacadcc8bf9a54e98e7894f54c0d8edab92b03"
+    },
+    {
+      "path": "assets/fonts/Urbanist-MediumItalic.ttf",
+      "sha1": "a89277d4b8e6b48ade27a7914b0267b99adef87f"
+    },
+    {
+      "path": "assets/fonts/Urbanist-Regular.ttf",
+      "sha1": "ca6e793bc43b42306c06fedc353c68af20ee2c7b"
+    },
+    {
+      "path": "assets/fonts/Urbanist-SemiBold.ttf",
+      "sha1": "a0dd44015ece2092d0b480cd60c87ccbe932e3f4"
+    },
+    {
+      "path": "assets/fonts/Urbanist-SemiBoldItalic.ttf",
+      "sha1": "a76907c1086fd04d6a35c316a3c4093e24048c80"
+    },
+    {
+      "path": "assets/fonts/Urbanist-Thin.ttf",
+      "sha1": "a5741733c8bb3dae3513ff8d7ecb04a472725974"
+    },
+    {
+      "path": "assets/fonts/Urbanist-ThinItalic.ttf",
+      "sha1": "73cc0bff711e9fbbcb7cb8f2ca683f33c6bdbae0"
+    }
+  ]
+}
