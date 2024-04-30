@@ -1,6 +1,8 @@
 # CarFlex App
 
+<p align="center">
 <img src="https://socialify.git.ci/Mohid-Anwar/Car-Flex/image?description=1&font=Jost&language=1&name=1&owner=1&pattern=Floating%20Cogs&theme=Auto" alt="Car-Flex" width="640" height="320" />
+</p>
 
 CarFlex is a mobile application built using React Native for car enthusiasts. It allows users to explore car videos, manage their profiles, and more.
 
